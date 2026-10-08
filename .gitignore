@@ -1,0 +1,70 @@
+# ==============================
+# Environment & secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# PhpStorm / JetBrains
+# ==============================
+
+.idea/
+*.iml
+
+# ==============================
+# Symfony / PHP
+# ==============================
+
+/backend/vendor/
+/backend/var/
+/backend/.phpunit.result.cache
+
+# ==============================
+# React / Node
+# ==============================
+
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Python
+# ==============================
+
+/analytics/__pycache__/
+/analytics/.pytest_cache/
+/analytics/.mypy_cache/
+/analytics/.ruff_cache/
+/analytics/.venv/
+*.py[cod]
+*.egg-info/
+
+# ==============================
+# Coverage
+# ==============================
+
+coverage/
+.coverage
+htmlcov/
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.log
